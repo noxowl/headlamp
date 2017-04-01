@@ -1,6 +1,6 @@
 """headlamp, minecraft uuid library for games.nachtbeere.net
 
-	:copyright: 2017 Mirai Kim
+    :copyright: 2017 Mirai Kim
 """
 
 __version__ = "0.1"

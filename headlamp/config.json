@@ -1,5 +1,5 @@
 {
-	"mojang_status": "https://status.mojang.com",
-	"mojang_api": "https://api.mojang.com",
-	"mojang_session": "https://sessionserver.mojang.com"
+    "mojang_status": "https://status.mojang.com",
+    "mojang_api": "https://api.mojang.com",
+    "mojang_session": "https://sessionserver.mojang.com"
 }
