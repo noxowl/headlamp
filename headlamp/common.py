@@ -1,4 +1,4 @@
-""""mod: 'headlamp.common
+""""mod: 'headlamp.common'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Define common info, common function for mojang api

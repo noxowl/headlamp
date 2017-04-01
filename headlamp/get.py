@@ -1,4 +1,4 @@
-""""mod: 'headlamp.get
+""""mod: 'headlamp.get'
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Handling api by UUID
