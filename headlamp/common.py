@@ -7,16 +7,18 @@ Define common info, common function for mojang api
 
 import os
 import json
-import base64
 import requests
 
 from pathlib import Path
 
+__all__ = (
+    'MOJANG_STATUS',
+    'MOJANG_API',
+    'MOJANG_SESSION',
+    'get_status')
 
-__all__ = ('MOJANG_STATUS', 'MOJANG_API', 'MOJANG_SESSION', 'get_status', 'decode_base64')
-
+#FIXME
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-
 
 with (Path(__location__, 'config.json')).open('r') as f:
     conf = json.load(f)
@@ -36,7 +38,3 @@ def get_status():
     for s in r.json():
         status.update(s)
     return status
-
-
-def decode_base64(value):
-    return base64.b64decode(value)
